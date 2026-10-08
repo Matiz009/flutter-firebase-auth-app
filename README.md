@@ -1,16 +1,25 @@
-# FIREBASE & Flutter
+# Flutter Firebase Auth App
 
-A new Flutter project.
+A Flutter app with Firebase email/password authentication, Firestore user profiles and a dashboard. It was built as my terminal exam project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sign up and log in with email and password (Firebase Auth)
+- User profiles stored in the Firestore `users` collection
+- Dashboard screen with sign-out
+- Notification service (Firebase Messaging)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter · Dart · Firebase Auth · Cloud Firestore · Firebase Messaging · Firebase Storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting started
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Author
+
+**Mati ul Rehman**: [github.com/Matiz009](https://github.com/Matiz009)
